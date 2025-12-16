@@ -1,0 +1,101 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "51f3064a-d5e5-4cc0-9f41-e333ba506e4b")
+	(paper "A2")
+	(title_block
+		(title "SplitKeeb Left")
+	)
+	(lib_symbols)
+	(sheet
+		(at 318.008 24.13)
+		(size 239.776 231.902)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8b52803-b521-4355-ae59-2a5705fd74ef")
+		(property "Sheetname" "right"
+			(at 318.008 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "right_side.kicad_sch"
+			(at 318.008 256.6166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SplitKeeb"
+				(path "/51f3064a-d5e5-4cc0-9f41-e333ba506e4b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.416 24.13)
+		(size 248.92 235.458)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d57fcc45-91fc-42eb-81ba-541b8be27c01")
+		(property "Sheetname" "left"
+			(at 26.416 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left_side.kicad_sch"
+			(at 26.416 260.1726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SplitKeeb"
+				(path "/51f3064a-d5e5-4cc0-9f41-e333ba506e4b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
