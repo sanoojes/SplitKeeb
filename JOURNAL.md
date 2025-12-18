@@ -90,3 +90,45 @@ by Robert Feranec: [Video](https://www.youtube.com/watch?v=N4cLFE0FF2U) |
 [How to Design Mechanical Keyboard PCBs with Kicad by Joe Scotto](https://www.youtube.com/watch?v=8WXpGTIbxlQ)
 
 [How To: Split Keyboard with RP2040 and KMK](https://sanderg.nl/en/posts/how-to-split-keyboard-with-rp2040-and-kmk/)
+
+## Day 3: Starting to work on PCB
+
+#### KB Placer or No KB Placer ?
+
+##### Time: 7-8:15am
+
+I tried to use KB Placer to place my layout with my keyboard-layout.json by
+[keyboard-layout-editor](https://www.keyboard-layout-editor.com/) But searching
+through slack i found that some one got banned for using
+[EroGen](https://github.com/adamws/kicad-kbplacer) and
+[KB Placer](https://github.com/adamws/kicad-kbplacer), I don't need that fate to
+my split keyboard. So am still waiting for the Slack Support to get me a Answer
+to use or not use the plugin (i need it soooo bad to place the keys for my
+keyboard, no routing or other fancy stuff)
+
+[kbplacer image]
+
+##### Time: 8:15am - 10:15am
+
+I think i will do it without the KBPlacer ig, but it will take so much time than
+using that. soooooo i need someone to help me to decide to use or not use
+KBPlacer plugin for the layout.
+
+Anyways am starting to do the PCB Layout by hand rn. to spend my time
+efficiently
+
+I started the pcb design and found out that the RP2040 symbols and footprints
+where invalid when i referred the
+[RP2040-Zero Wiki](https://www.waveshare.com/wiki/RP2040-Zero)
+
+Then i found that i should use SK6812MINI-E Instead of SK6812MINI. Spend working
+till 8pm. Now i hopefully found the repo with the footprints and symbols,
+[marbastlib](https://github.com/ebastler/marbastlib) Am redoing the PCB again...
+
+## Day 4: Working on schematics and improving it
+
+I added my schematic for review in `#blueprint` in Hackclub Slack , `@sandgum`
+helped me to figure out the logic level converter and some resistors i should
+use
+
+The pcb structure is ready. Added 0.1uF(100nF) Capacitors to the
