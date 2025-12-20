@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "DM-OLED096-636")(type "KiCad")(uri "${KIPRJMOD}/lib/DM-OLED096-636/DM-OLED096-636.kicad_sym")(options "")(descr ""))
   (lib (name "RP2040-Zero")(type "KiCad")(uri "${KIPRJMOD}/lib/RP2040-Zero.pretty/RP2040-Zero.kicad_sym")(options "")(descr ""))
-  (lib (name "SN74AHCT125N")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74AHCT125N/SN74AHCT125N.kicad_sym")(options "")(descr ""))
 )

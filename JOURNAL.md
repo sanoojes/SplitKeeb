@@ -132,3 +132,11 @@ helped me to figure out the logic level converter and some resistors i should
 use
 
 The pcb structure is ready. Added 0.1uF(100nF) Capacitors to the
+
+## Day 5: Final schematics and pcb for left side.
+
+I didn't time my things as am lazy, But the changes made are use 0.1uF
+capacitors as recommended in the sk6812mini-e docs.
+
+Added A ESD protection circuit inspired from YAMEK keyboards, fixed the
+schematics and wireup the pcb the result looks like
