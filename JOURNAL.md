@@ -224,3 +224,12 @@ for the case tommorrow.
 - **XC6206P332MR (3.3V LDO regulator)**\
   Digi-Key: https://www.digikey.in/en/products/detail/umw/XC6206P332MR/17635277\
   LCSC: https://www.lcsc.com/product-detail/C5252899.html
+
+## Day 7: Complete Right side PCB and working on the case
+
+Today i worked on the PCB and improved the schematics of the Keyboard,
+Symmetrical design is not gonna happen, so i decided to do them separately.
+
+I strugled with implementing BMS(Battery Management System) and the members from
+Keyboard Atelier Helped me a lot reviewing my schematics, I will be uploading my
+pcb for review there too, i think i will use sandwich case design
