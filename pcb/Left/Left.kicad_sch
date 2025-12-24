@@ -26173,7 +26173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a08af5f-1094-44c6-8db1-4dd112ebf494")
-		(property "Reference" "ShifterC1"
+		(property "Reference" "SC1"
 			(at 229.87 321.3101 0)
 			(effects
 				(font
@@ -26227,7 +26227,7 @@
 		(instances
 			(project "Right"
 				(path "/0513b6e3-358c-4d14-8376-31298e27d8df"
-					(reference "ShifterC1")
+					(reference "SC1")
 					(unit 1)
 				)
 			)

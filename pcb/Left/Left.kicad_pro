@@ -468,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Right.kicad_pro",
+    "filename": "Left.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -507,7 +507,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Right.step",
+      "step": "Left.step",
       "svg": "",
       "vrml": ""
     },
